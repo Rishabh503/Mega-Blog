@@ -1,5 +1,5 @@
-export const Footer=()=>{
+export const Header=()=>{
     return (
-        <h1>i m header</h1>
+        <h1>i was header</h1>
     )
 }

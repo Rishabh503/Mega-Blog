@@ -22,16 +22,8 @@ useEffect(()=>{
 },[])
 
   return !loading?(
-    <div className='bg-red-600 text-yellow-800'>
-      <Header/>
-      <h1 className="text-5xl font-bold underline">
-      Hello world!
-    </h1>
-      <main>
-        <Outlet/>
-      </main>
+    <div>
       <Footer/>
-      hii
     </div>
   ):<h1>loading</h1>
 }
